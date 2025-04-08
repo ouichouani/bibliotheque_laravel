@@ -97,7 +97,7 @@ class APIBookController extends Controller
      */
     public function edit(Book $book)
     {
-        //
+        dd('hello') ;
     }
 
     /**

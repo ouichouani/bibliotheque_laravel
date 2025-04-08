@@ -16,7 +16,7 @@ use App\Http\Controllers\BookController;
 |
 */
 
-Route::resource('book', BookController::class)->middleware('CRUD');
+Route::resource('book', BookController::class)->middleware('auth');
 
 Route::get('/', function () {
     return view('main');
